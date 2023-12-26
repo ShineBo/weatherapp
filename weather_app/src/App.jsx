@@ -92,8 +92,8 @@ const App = () => {
 
   return (
   <>
-    <section className="w-full h-screen flex flex-col items-center">
-      <img className="w-full h-screen absolute " src={bgimg} alt="" />
+    <section className="w-full h-full flex flex-col items-center max-md:bg-black">
+      <img className="w-full h-screen absolute max-md:hidden " src={bgimg} alt="" />
       <div className="flex max-sm:flex-col mt-6 gap-20">
         <div className="flex flex-col text-center">
             <form action="" className="relative mt-3" onSubmit={handleSearch}>

@@ -26,6 +26,7 @@ const WeatherCard = ( {errorMsg, weatherData, toDateFunction}) => {
   return (
     <div className="mt-2 text-center text-slate-300 border rounded-lg px-8 py-8 
     shadow-sm shadow-slate-300 border-gray-500 relative bg-slate-500 bg-opacity-20">
+      <h1>Weather Information will be displayed here</h1>
     {errorMsg ? (
       <div className="text-4xl">{errorMsg}</div>
     ) : (
